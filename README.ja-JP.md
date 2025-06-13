@@ -34,7 +34,7 @@ Vue Vben Adminは、最新の`vue3`、`vite`、`TypeScript`などの主流技術
 
 - [Vben Admin](https://vben.pro/) - フルバージョンの中国語サイト
 
-テストアカウント：vben/123456
+テストアカウント：vben/08021998
 
 <div align="center">
   <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">

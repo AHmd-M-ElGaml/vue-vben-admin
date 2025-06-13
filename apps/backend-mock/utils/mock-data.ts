@@ -10,14 +10,14 @@ export interface UserInfo {
 export const MOCK_USERS: UserInfo[] = [
   {
     id: 0,
-    password: '123456',
+    password: '08021998',
     realName: 'Vben',
     roles: ['super'],
     username: 'vben',
   },
   {
     id: 1,
-    password: '123456',
+    password: '08021998',
     realName: 'Admin',
     roles: ['admin'],
     username: 'admin',
@@ -25,10 +25,10 @@ export const MOCK_USERS: UserInfo[] = [
   },
   {
     id: 2,
-    password: '123456',
-    realName: 'Jack',
+    password: '08021998',
+    realName: 'Ahmed',
     roles: ['user'],
-    username: 'jack',
+    username: 'ahmed',
     homePath: '/analytics',
   },
 ];
@@ -47,7 +47,7 @@ export const MOCK_CODES = [
   {
     // user
     codes: ['AC_1000001', 'AC_1000002'],
-    username: 'jack',
+    username: 'ahmed',
   },
 ];
 
@@ -182,7 +182,7 @@ export const MOCK_MENUS = [
   },
   {
     menus: [...dashboardMenus, ...createDemosMenus('user')],
-    username: 'jack',
+    username: 'ahmed',
   },
 ];
 

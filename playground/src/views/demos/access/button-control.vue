@@ -13,16 +13,16 @@ import { useAuthStore } from '#/store';
 
 const accounts: Record<string, Recordable<any>> = {
   admin: {
-    password: '123456',
+    password: '08021998',
     username: 'admin',
   },
   super: {
-    password: '123456',
+    password: '08021998',
     username: 'vben',
   },
   user: {
-    password: '123456',
-    username: 'jack',
+    password: '08021998',
+    username: 'ahmed',
   },
 };
 

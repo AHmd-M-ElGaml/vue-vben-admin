@@ -28,7 +28,7 @@ function sendCodeApi(phoneNumber: string) {
         duration: 3,
         key: 'sending-code',
       });
-      resolve({ code: '123456', phoneNumber });
+      resolve({ code: '08021998', phoneNumber });
     }, 3000);
   });
 }

@@ -7,7 +7,7 @@
   "author": "",
   "scripts": {
     "build": "nitro build",
-    "start": "nitro dev"
+    "dev": "nitro dev"
   },
   "dependencies": {
     "@faker-js/faker": "catalog:",

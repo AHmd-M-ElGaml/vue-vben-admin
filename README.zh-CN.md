@@ -34,7 +34,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 
 - [Vben Admin](https://vben.pro/) - 完整版中文站点
 
-测试账号：vben/123456
+测试账号：vben/08021998
 
 <div align="center">
   <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">

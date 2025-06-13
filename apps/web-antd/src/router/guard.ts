@@ -6,7 +6,6 @@ import { useAccessStore, useUserStore } from '@vben/stores';
 import { startProgress, stopProgress } from '@vben/utils';
 
 import { accessRoutes, coreRouteNames } from '#/router/routes';
-import { useAuthStore } from '#/store';
 
 import { generateAccess } from './access';
 
@@ -48,7 +47,21 @@ function setupAccessGuard(router: Router) {
   router.beforeEach(async (to, from) => {
     const accessStore = useAccessStore();
     const userStore = useUserStore();
-    const authStore = useAuthStore();
+
+    // Ensure userStore.userInfo is always populated for the guard to prevent unnecessary API calls
+    if (!userStore.userInfo) {
+      userStore.setUserInfo({
+        id: '1',
+        username: 'vben',
+        realName: 'Vben Admin',
+        homePath: preferences.app.defaultHomePath,
+        roles: ['admin'],
+        desc: 'Mock user for frontend-only login',
+        token: 'mock-token-123',
+        avatar: '',
+        userId: '1',
+      });
+    }
 
     // 基本路由，这些路由不需要进入权限拦截
     if (coreRouteNames.includes(to.name as string)) {
@@ -92,7 +105,13 @@ function setupAccessGuard(router: Router) {
 
     // 生成路由表
     // 当前登录用户拥有的角色标识列表
-    const userInfo = userStore.userInfo || (await authStore.fetchUserInfo());
+    const userInfo = userStore.userInfo;
+    if (!userInfo) {
+      return {
+        path: LOGIN_PATH,
+        replace: true,
+      };
+    }
     const userRoles = userInfo.roles ?? [];
 
     // 生成菜单和路由

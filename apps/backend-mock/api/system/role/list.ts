@@ -3,7 +3,7 @@ import { verifyAccessToken } from '~/utils/jwt-utils';
 import { getMenuIds, MOCK_MENU_LIST } from '~/utils/mock-data';
 import { unAuthorizedResponse, usePageResponseSuccess } from '~/utils/response';
 
-const formatterCN = new Intl.DateTimeFormat('zh-CN', {
+const formatterCN = new Intl.DateTimeFormat('en-US', {
   timeZone: 'Asia/Shanghai',
   year: 'numeric',
   month: '2-digit',

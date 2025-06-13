@@ -24,7 +24,7 @@ const MOCK_USER_OPTIONS: BasicOption[] = [
   },
   {
     label: 'User',
-    value: 'jack',
+    value: 'ahmed',
   },
 ];
 
@@ -57,7 +57,7 @@ const formSchema = computed((): VbenFormSchema[] => {
             );
             if (findUser) {
               form.setValues({
-                password: '123456',
+                password: '08021998',
                 username: findUser.value,
               });
             }

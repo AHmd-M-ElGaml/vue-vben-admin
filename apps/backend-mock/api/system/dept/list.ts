@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 import { verifyAccessToken } from '~/utils/jwt-utils';
 import { unAuthorizedResponse, useResponseSuccess } from '~/utils/response';
 
-const formatterCN = new Intl.DateTimeFormat('zh-CN', {
+const formatterCN = new Intl.DateTimeFormat('en-US', {
   timeZone: 'Asia/Shanghai',
   year: 'numeric',
   month: '2-digit',

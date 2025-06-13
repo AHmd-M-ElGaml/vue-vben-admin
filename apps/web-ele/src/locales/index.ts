@@ -17,7 +17,7 @@ import dayjs from 'dayjs';
 import enLocale from 'element-plus/es/locale/lang/en';
 import defaultLocale from 'element-plus/es/locale/lang/zh-cn';
 
-const elementLocale = ref<Language>(defaultLocale);
+const elementLocale = ref<Language>(enLocale);
 
 const modules = import.meta.glob('./langs/**/*.json');
 
