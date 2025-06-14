@@ -10,7 +10,7 @@
   <h1>Vue Vben Admin</h1>
 </div>
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/vbenjs/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/vbenjs/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/vbenjs/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/vbenjs/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
 
 **中文** | [English](./README.md) | [日本語](./README.ja-JP.md)
 
@@ -20,7 +20,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 
 ## 升级提示
 
-该版本为最新版本 `5.0`，与其他版本不兼容，如果你是新项目，建议使用最新版本。如果你想查看旧版本，请使用 [v2 分支](https://github.com/vbenjs/vue-vben-admin/tree/v2)
+该版本为最新版本 `5.0`，与其他版本不兼容，如果你是新项目，建议使用最新版本。如果你想查看旧版本，请使用 [v2 分支](https://github.com/AHmd-M-ElGaml/vue-vben-admin/tree/v2)
 
 ## 特性
 
@@ -46,7 +46,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 
 在 Gitpod（适用于 GitHub 的免费在线开发环境）中打开项目，并立即开始编码。
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vbenjs/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AHmd-M-ElGaml/vue-vben-admin)
 
 ## 文档
 
@@ -57,7 +57,7 @@ Vue Vben Admin 是 Vue Vben Admin 的升级版本。作为一个免费开源的�
 1. 获取项目代码
 
 ```bash
-git clone https://github.com/vbenjs/vue-vben-admin.git
+git clone https://github.com/AHmd-M-ElGaml/vue-vben-admin.git
 ```
 
 2. 安装依赖
@@ -82,7 +82,7 @@ pnpm build
 
 ## 更新日志
 
-[CHANGELOG](https://github.com/vbenjs/vue-vben-admin/releases)
+[CHANGELOG](https://github.com/AHmd-M-ElGaml/vue-vben-admin/releases)
 
 ## 如何贡献
 
@@ -98,7 +98,7 @@ pnpm build
 
 ## Git 贡献提交规范
 
-参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范 ([Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular))
+参考 [vue](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular) 规范 ([Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular))
 
 - `feat` 增加新功能
 - `fix` 修复问题/BUG
@@ -128,7 +128,7 @@ pnpm build
 
 ## Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vbenjs/vue-vben-admin&type=Date)](https://star-history.com/#vbenjs/vue-vben-admin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AHmd-M-ElGaml/vue-vben-admin&type=Date)](https://star-history.com/#AHmd-M-ElGaml/vue-vben-admin&Date)
 
 ## 捐赠
 
@@ -140,7 +140,7 @@ pnpm build
 
 ## 贡献者
 
-<a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
+<a href="https://github.com/AHmd-M-ElGaml/vue-vben-admin/graphs/contributors">
   <img alt="Contributors" src="https://opencollective.com/vbenjs/contributors.svg?button=false" />
 </a>
 

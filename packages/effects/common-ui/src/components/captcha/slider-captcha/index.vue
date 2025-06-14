@@ -86,6 +86,7 @@ function handleDragStart(e: MouseEvent | TouchEvent) {
   if (!actionRef.value) return;
   emit('start', e);
 
+  // Start sliding
   state.moveDistance =
     getEventPageX(e) -
     Number.parseInt(
@@ -112,6 +113,7 @@ function handleDragMoving(e: MouseEvent | TouchEvent) {
     const { actionWidth, offset, wrapperWidth } = getOffset(actionEl.getEl());
     const moveX = getEventPageX(e) - moveDistance;
 
+    // Sliding
     emit('move', {
       event: e,
       moveDistance,

@@ -10,7 +10,7 @@
   <h1>Vue Vben Admin</h1>
 </div>
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/vbenjs/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/vbenjs/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/vbenjs/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/vbenjs/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/AHmd-M-ElGaml/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
 
 **日本語** | [English](./README.md) | [中文](./README.zh-CN.md)
 
@@ -20,7 +20,7 @@ Vue Vben Adminは、最新の`vue3`、`vite`、`TypeScript`などの主流技術
 
 ## アップグレード通知
 
-これは最新バージョン `5.0` であり、以前のバージョンとは互換性がありません。新しいプロジェクトを開始する場合は、最新バージョンを使用することをお勧めします。古いバージョンを表示したい場合は、[v2ブランチ](https://github.com/vbenjs/vue-vben-admin/tree/v2)を使用してください。
+これは最新バージョン `5.0` であり、以前のバージョンとは互換性がありません。新しいプロジェクトを開始する場合は、最新バージョンを使用することをお勧めします。古いバージョンを表示したい場合は、[v2ブランチ](https://github.com/AHmd-M-ElGaml/vue-vben-admin/tree/v2)を使用してください。
 
 ## 特徴
 
@@ -46,7 +46,7 @@ Vue Vben Adminは、最新の`vue3`、`vite`、`TypeScript`などの主流技術
 
 Gitpod（GitHub用の無料オンライン開発環境）でプロジェクトを開き、すぐにコーディングを開始します。
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vbenjs/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AHmd-M-ElGaml/vue-vben-admin)
 
 ## ドキュメント
 
@@ -57,7 +57,7 @@ Gitpod（GitHub用の無料オンライン開発環境）でプロジェクト�
 1. プロジェクトコードを取得
 
 ```bash
-git clone https://github.com/vbenjs/vue-vben-admin.git
+git clone https://github.com/AHmd-M-ElGaml/vue-vben-admin.git
 ```
 
 2. 依存関係のインストール
@@ -82,7 +82,7 @@ pnpm build
 
 ## 変更ログ
 
-[CHANGELOG](https://github.com/vbenjs/vue-vben-admin/releases)
+[CHANGELOG](https://github.com/AHmd-M-ElGaml/vue-vben-admin/releases)
 
 ## 貢献方法
 
@@ -128,7 +128,7 @@ pnpm build
 
 ## スター歴史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vbenjs/vue-vben-admin&type=Date)](https://star-history.com/#vbenjs/vue-vben-admin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AHmd-M-ElGaml/vue-vben-admin&type=Date)](https://star-history.com/#AHmd-M-ElGaml/vue-vben-admin&Date)
 
 ## 寄付
 
@@ -140,7 +140,7 @@ pnpm build
 
 ## 貢献者
 
-<a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
+<a href="https://github.com/AHmd-M-ElGaml/vue-vben-admin/graphs/contributors">
   <img alt="Contributors" src="https://opencollective.com/vbenjs/contributors.svg?button=false" />
 </a>
 

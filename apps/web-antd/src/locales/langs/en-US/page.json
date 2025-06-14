@@ -3,12 +3,12 @@
     "login": "Login",
     "register": "Register",
     "codeLogin": "Code Login",
-    "qrcodeLogin": "Qr Code Login",
-    "forgetPassword": "Forget Password"
+    "qrcodeLogin": "QR Code Login",
+    "forgetPassword": "Forgot Password"
   },
   "dashboard": {
-    "title": "Dashboard",
-    "analytics": "Analytics",
+    "title": "Overview",
+    "analytics": "Analytics Page",
     "workspace": "Workspace"
   }
 }
